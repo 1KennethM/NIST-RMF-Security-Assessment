@@ -45,12 +45,11 @@ Prepared a simulated authorization recommendation based on the assessment findin
 Performed post-reboot checks of Wazuh service recovery and agent connectivity. These checks demonstrate follow-up verification; a production system would require an ongoing monitoring program.
 
 ## Documentation and Evidence
-Supporting materials will be added to this repository:
-- Assessment scope and selected control mappings
-- Firewall and package update evidence
-- Wazuh service and connectivity verification
-- Assessment findings and POA&M
-- Simulated authorization recommendation
+- [Security assessment](<1. assessment.md>)
+- [Remediation plan (POA&M)](poam.md)
+- [Simulated authorization recommendation](authorization-recommendation.md)
+- [Evidence screenshots](NIST-RMF-Evidence/)
+The screenshots document a follow-up review of the lab's current state: configured firewall restrictions, a Wazuh startup failure, and pending package updates. Service recovery, completed patching, and endpoint connectivity were not verified during this review.
 
 ## What I Learned
 This exercise connected technical changes to security assessment documentation. Configuring a firewall or applying an update is only part of the work: the result must be verified, supported by evidence, and documented alongside any remaining gaps.
